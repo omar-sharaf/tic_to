@@ -113,21 +113,21 @@ int main() {
   cin>>commandx;
   if((arr1[0]!="x")and(arr1[0]!="o"))
   {
-  if (commandx=="up-left")
+  if (commandx=="top-left")
   {
     arr1[0]="x";
   }
   }
   if((arr1[1]!="x")and(arr1[1]!="o"))
   {
-  if (commandx=="up-mid")
+  if (commandx=="top-mid")
   {
     arr1[1]="x";
   }
   }
   if((arr1[2]!="x")and(arr1[2]!="o"))
   {
-    if (commandx=="up-right")
+    if (commandx=="top-right")
   {
     arr1[2]="x";
   }
@@ -178,21 +178,21 @@ int main() {
   cin>>commando;
   if((arr1[0]!="x")and(arr1[0]!="o"))
   {
-   if (commando=="up-left")
+   if (commando=="top-left")
   {
     arr1[0]="o";
   }
   }
   if((arr1[1]!="x")and(arr1[1]!="o"))
   {
-  if (commando=="up-mid")
+  if (commando=="top-mid")
   {
     arr1[1]="o";
   }
   }
   if((arr1[2]!="x")and(arr1[2]!="o"))
   {
-    if (commando=="up-right")
+    if (commando=="top-right")
   {
     arr1[2]="o";
   }
