@@ -191,7 +191,7 @@ int main() {
     cout<<arr1[i]<<",";
 
   }
-  cout<<"enter where you want your o to go: ";
+  cout<<"\nenter where you want your o to go: ";
   cin>>commando;
   if((arr1[0]!="x")and(arr1[0]!="o"))
   {
