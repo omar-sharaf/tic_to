@@ -174,6 +174,23 @@ int main() {
     arr1[8]="x";
   }
   }
+  for(i=0;i<3;i++)
+  {
+    cout<<arr1[i]<<",";
+
+  } 
+  cout<<"\n";
+  for(i=3;i<6;i++)
+  {
+    cout<<arr1[i]<<",";
+
+  }
+  cout<<"\n";
+  for(i=6;i<9;i++)
+  {
+    cout<<arr1[i]<<",";
+
+  }
   cout<<"enter where you want your o to go: ";
   cin>>commando;
   if((arr1[0]!="x")and(arr1[0]!="o"))
